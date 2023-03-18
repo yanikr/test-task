@@ -31,9 +31,9 @@ export const BgImage = styled.div`
   height: 168px;
   width: 308px;
   background-image: url(${bgImage});
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 28px;
+  position: absolute;
+  left: 36px;
+  top: 28px;
 `;
 export const AvatarLineLeft = styled.div`
   height: 8px;
@@ -64,8 +64,8 @@ export const AvatarFrame = styled.div`
   position: relative;
   width: 71px;
   height: 71px;
-  left: 38.3%;
-  top: -4%;
+  left: 38.5%;
+  top: 39%;
   border: 9px solid #ebd8ff;
 
   &:before {
@@ -105,12 +105,13 @@ export const UserAvatar = styled.div`
 `;
 
 export const StatsWrap = styled.div`
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
+  left: 25%;
+  top: 284px;
 `;
 
 export const TweetStats = styled.p`
@@ -132,7 +133,7 @@ export const FollowerStats = styled.p`
 
 export const FollowButton = styled.button`
   height: 50px;
-  width: 196px;
+  width: 200px;
   color: #373737;
 
   background: #ebd8ff;
@@ -147,7 +148,7 @@ export const FollowButton = styled.button`
 `;
 export const Unfollow = styled.button`
   height: 50px;
-  width: 196px;
+  width: 200px;
   color: #373737;
 
   background: #5cd3a8;
